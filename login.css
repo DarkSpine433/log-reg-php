@@ -29,12 +29,22 @@ body {
   text-align: center;
   color: rgb(54, 207, 15);
 }
+@media (width < 1000px) {
+  .log_con_div {
+    width: 100%;
+  }
+}
 .log_con_div h1 {
   text-shadow: 0px 0px 100px rgb(12, 221, 5);
   text-transform: uppercase;
   font-size: 3rem;
   letter-spacing: 10px;
   margin: 0;
+}
+@media (width < 1000px) {
+  .log_con_div h1 {
+    font-size: 7rem;
+  }
 }
 
 .log_con {
@@ -61,6 +71,11 @@ body {
   border-radius: 20px;
   transition: all 0.18s ease-in-out;
 }
+@media (width < 1000px) {
+  .log_con button {
+    font-size: clamp(2.8rem, 2vw, 50rem);
+  }
+}
 .log_con button:hover {
   box-shadow: 0px 0px 20px rgba(0, 255, 0, 0.363);
 }
@@ -71,6 +86,11 @@ body {
   flex-direction: column;
   justify-content: center;
   text-align: left;
+}
+@media (width < 1000px) {
+  .input_con {
+    width: 70%;
+  }
 }
 .input_con input {
   border-radius: 20px;
@@ -86,8 +106,14 @@ body {
   font-weight: 500;
   letter-spacing: 1px;
 }
+@media (width < 1000px) {
+  .input_con input {
+    font-size: 300%;
+  }
+}
 
 .input_tag {
+  font-size: 120%;
   transition: all 0.1s ease-in-out;
   position: relative;
   top: 15%;
@@ -95,4 +121,9 @@ body {
   color: rgb(255, 255, 255);
   left: 3%;
   text-shadow: 0px 0px 5px rgb(0, 0, 0);
+}
+@media (width < 1000px) {
+  .input_tag {
+    font-size: clamp(2.8rem, 20%, 50rem);
+  }
 }/*# sourceMappingURL=login.css.map */
