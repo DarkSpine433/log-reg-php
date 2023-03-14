@@ -1,10 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+body,
+*,
+html {
+  font-family: "Quicksand", sans-serif;
+}
+
 body {
   box-sizing: border-box;
   padding: 0;
   margin: 0 auto;
+  border: 0;
   width: 100%;
   height: 100vh;
-  border: 0;
   background-image: url("./blob-scene-haikei.svg");
   background-position: center;
   background-size: cover;
@@ -13,7 +20,6 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-family: "Poppins", sans-serif;
 }
 
 .log_con_div {
@@ -69,15 +75,16 @@ body {
 .input_con input {
   border-radius: 20px;
   box-shadow: 0px 0px 20px rgb(0, 0, 0);
-  color: rgb(43, 255, 0);
+  color: rgb(3, 36, 66);
+  box-shadow: 0px 0px 10px rgb(1, 66, 128);
   font-size: 100%;
   width: 100%;
   outline: none;
   border: 0;
   padding: 10px 10px;
-  background: rrgb(54, 207, 15);
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.171);
-  letter-spacing: 2px;
+  background: rgb(255, 255, 255);
+  font-weight: 500;
+  letter-spacing: 1px;
 }
 
 .input_tag {
