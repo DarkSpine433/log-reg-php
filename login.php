@@ -52,6 +52,7 @@
                 </div>
             </div>
             <button>Create Account</button>
+            <div class="all_ready">All Ready Have Account? <a href="./login.php">LOGIN</a></div>
         </form>
     </div>
 </body>

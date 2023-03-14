@@ -20,6 +20,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-attachment: fixed;
 }
 
 .log_con_div {
@@ -126,4 +127,12 @@ body {
   .input_tag {
     font-size: clamp(2.8rem, 20%, 50rem);
   }
+}
+
+.all_ready {
+  color: white;
+}
+.all_ready a {
+  color: greenyellow;
+  text-decoration: underline;
 }/*# sourceMappingURL=login.css.map */
